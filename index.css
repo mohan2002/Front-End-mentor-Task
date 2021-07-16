@@ -1,0 +1,148 @@
+html {
+  background-color: aqua;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 62.5%;
+}
+
+.container {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 300px;
+}
+.outer {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  position: absolute;
+  height: 400px;
+  justify-content: space-between;
+  color: hsl(0, 0%, 95%);
+  letter-spacing: 1px;
+}
+
+.a {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.b {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.c {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+p {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.Sedan {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+.suv {
+  position: absolute;
+  top: 30px;
+  left: 270px;
+}
+
+.luxury {
+  position: absolute;
+  top: 30px;
+  left: 550px;
+}
+
+.btn1 {
+  position: absolute;
+  top: 320px;
+  left: 40px;
+  padding: 10px;
+  border-radius: 30px;
+  width: 120px;
+  border: navajowhite;
+  color: hsl(31, 77%, 52%);
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+.btn2 {
+  position: absolute;
+  top: 320px;
+  left: 280px;
+  padding: 10px;
+  border-radius: 30px;
+  width: 120px;
+  border: navajowhite;
+  color: hsl(31, 77%, 52%);
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+.btn3 {
+  position: absolute;
+  top: 320px;
+  left: 550px;
+  padding: 10px;
+  border-radius: 30px;
+  width: 120px;
+  border: navajowhite;
+  color: hsl(31, 77%, 52%);
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+.btn1:hover {
+  transition: 0.3s;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 0.1rem solid white;
+}
+.btn2:hover {
+  transition: 0.3s;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: 0.1rem solid white;
+}
+.btn3:hover {
+  transition: 0.3s;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border: 0.1rem solid white;
+}
+.attribution {
+  position: absolute;
+  top: 250px;
+  font-weight: 900;
+}
+
+.lower a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+@media screen and (min-width: 426px) {
+  .container {
+    margin: 3rem;
+  }
+  .attribution {
+    margin: 1.5rem 3rem;
+  }
+}
